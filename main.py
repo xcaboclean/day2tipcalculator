@@ -11,6 +11,5 @@ number_people = int(input("How many people to split the bill?"))
 value_per_person = (total_bill * (1.00 + percentage_tip_float)/ number_people)
 
 value_per_person = round(value_per_person,2)
-print(f"{value_per_person}")
+print(f"Each person should pay: ${value_per_person}")
 
-#print(value_per_person)
